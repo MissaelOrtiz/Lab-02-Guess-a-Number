@@ -20,12 +20,14 @@
     </header>
     <main>
         <section>
-            <div id="guesses-remaining">Remaining Guesses</div>
+            <div id="guesses-remaining">4 Guesses Remaining</div>
             <br>
             <label for="total-wins">total wins!</label>
             <span id="total-wins"></span>
             <label for="total-plays">total plays!</label>
             <span id="total-plays"></span>
+            <br>
+            <div id="feedback"></div>
             <br>
             <input id="user-guess" placeholder="your guess?..." />
             <br>
@@ -34,7 +36,7 @@
         </section>
         <section>
             <h2>The Rules</h2>
-            <p></p>
+            <p>The technowizard's have recruited you, young mage, to divine a number from the Great Beyond! Use your technowizardry to divine this number (from 1 through 20) with the roll of this divining stone. You are to guess the number exactly lest our realm be overtaken by chaos (or yknow, you won't win the game). You have 4 attempts before chaos wins!</p>
         </section>
     </main>
     <footer>
@@ -42,6 +44,7 @@
     </footer>
 
     <script type="module" src="./app.js"></script>
+    <script type="module" src="./utils.js"></script>
 </body>
 
 </html>
