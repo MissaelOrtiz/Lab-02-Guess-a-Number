@@ -18,6 +18,7 @@
 
 ## State
 Total Wins: number starting at 0
+Total Plays: number starting at 0
 Target Number: randomly generated number
 Remaining Guesses: number starting at 4
 
@@ -27,14 +28,17 @@ Remaining Guesses: number starting at 4
         - return 'too small' in feedback
         - decrement remaining guesses
             - display reset button if remaining guesses = 0
+            - increment total plays
     - if larger
         - return 'too large' in feedback
         - decrement remaining guesses
             - display reset button if remaining guesses = 0
+            - increment total plays
     - if same number
         - return congrats message
         - increment total wins
         - reveal reset button
+        - increment total plays
 - [reset button] resets the game
     - asigns different target number
     - resets remaining guesses
