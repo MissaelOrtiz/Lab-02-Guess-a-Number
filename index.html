@@ -19,24 +19,25 @@
         </div>
     </header>
     <main>
-        <section>
-            <div id="guesses-remaining">4 Guesses Remaining</div>
+        <section class="top">
+            <div id="guesses-remaining" class="wow">4 Guesses Remaining</div>
             <br>
             <label for="total-wins">total wins!</label>
-            <span id="total-wins"></span>
+            <span id="total-wins" class="wow">0</span>
             <label for="total-plays">total plays!</label>
-            <span id="total-plays"></span>
+            <span id="total-plays" class="wow">0</span>
             <br>
             <div id="feedback"></div>
             <br>
             <input id="user-guess" placeholder="your guess?..." />
             <br>
-            <button id="submit-guess"> <img src="assets/alchemy-logo.png" /> </button>
+            <label for="img">Roll the Dice...</label>
+            <button id="submit-guess"> <img src="assets/dice.png" class="img"/> </button>
             <button id="reset" class="hide">Play again!</button>
         </section>
         <section>
             <h2>The Rules</h2>
-            <p>The technowizard's have recruited you, young mage, to divine a number from the Great Beyond! Use your technowizardry to divine this number (from 1 through 20) with the roll of this divining stone. You are to guess the number exactly lest our realm be overtaken by chaos (or yknow, you won't win the game). You have 4 attempts before chaos wins!</p>
+            <p>The technowizards have recruited you, <span class="wow">young mage</span>, to divine a number from the Great Beyond! Use your technowizardry to divine this number (from 1 through 20) with the roll of this divining stone. You are to guess the number exactly lest our realm be overtaken by chaos (or yknow, you won't win the game). You have 4 attempts before chaos wins!</p>
         </section>
     </main>
     <footer>

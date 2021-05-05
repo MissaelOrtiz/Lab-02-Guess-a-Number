@@ -48,5 +48,6 @@ resetGameButton.addEventListener('click', () => {
     userGuessInput.classList.toggle('hide');
     submitGuessButton.classList.toggle('hide');
     guessesRemaining = 4;
+    guessesRemainingDisplay.textContent = `${guessesRemaining} Guesses Remaining`;
     targetNumber = Math.ceil(Math.random() * 20);
-})
+});
